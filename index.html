@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body data-ng-app="webApp" data-ng-controller="webAppCtrl">
+	<div data>
+		<p data-ng-model='item'></p>
+	</div>
+
+	<ul>
+		<li ng-repeat="item in items">
+		  <p>{{item.id}}</p>
+ 		  <p>{{item.name}}</p>
+		</li>
+	</ul>
+    </body>
+   
+
+    <!-- angular library------------------------>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/socket.io.js"></script>
+
+    <script type="text/javascript" src="js/application.js"></script>
+</body>
+</html>
