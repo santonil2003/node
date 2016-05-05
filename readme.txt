@@ -1,7 +1,15 @@
-/node : folder for server side js
-      : node server.js
+/node
+
+Server sidejs files
 
 
-/js : js lib
+/js 
+
+Client side js
+
+
+index.html
+
+entry point for web app
 
 
