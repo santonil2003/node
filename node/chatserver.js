@@ -46,7 +46,7 @@ io.on('connection', function (socket) {
         
         console.log(clients);
         
-        socket.emit('connected_clients', clients);
+        socket.broadcast.emit('connected_clients', clients);
     });
 
 
