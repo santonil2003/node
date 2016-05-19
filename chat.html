@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body data-ng-app="webApp" data-ng-controller="webAppCtrl">
+
+        <pre>{{msg}}</pre>
+
+        <ul>
+            <li ng-repeat="(key, value) in clients">
+                <p>{{key}} : {{value}}</p>
+            </li>
+        </ul>
+
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/socket.io.js"></script>
+        <script type="text/javascript" src="js/js.cooke.js"></script>
+
+        <script type="text/javascript" src="js/chat.js"></script>
+
+        <script type="text/javascript">
+
+
+
+        </script>
+    </body>
+</html>
